@@ -1,0 +1,8 @@
+<div class="container-title-card-item">
+    <div class="short_name">{{ titleCardItem?.short_name }}</div>
+    <div class="separator"></div>
+    <div class="long_name">{{ titleCardItem?.long_name }}</div>
+    <div class="level">LEVEL {{ titleCardItem?.rncp_level }}</div>
+    <div class="short_name_mini">{{ titleCardItem?.certifier?.short_name }}</div>
+    <div class="publish {{ (titleCardItem?.is_published ? 'active' : '') }}"></div>
+</div>

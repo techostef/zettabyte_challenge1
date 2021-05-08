@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.tab-title-card .mat-tab-label {
+    color: white;
+    background-color: black;
+}
+
+.tab-title-card .mat-tab-label.mat-tab-label-active {
+    background-color: rgb(44, 146, 177);
+    color: yellow;
+}
+
+.tab-title-card .mat-tab-body-content {
+    overflow-y: auto;
+    height: calc(100vh - 108px);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tab-title-card .mat-tab-body-content::-webkit-scrollbar {
+    width: 2px;
+}
+  
+  /* Track */
+.tab-title-card .mat-tab-body-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+  /* Handle */
+.tab-title-card .mat-tab-body-content::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+  /* Handle on hover */
+.tab-title-card .mat-tab-body-content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.search-title-cards .mat-form-field-label span {
+    color: white;
+}
+
+.search-title-cards .mat-form-field-underline {
+    background-color: white;
+}

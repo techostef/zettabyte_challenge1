@@ -1,0 +1,49 @@
+:host {
+    display: inline-flex;
+    width: fit-content !important;
+}
+.container-title-card-item {
+    background-color: rgb(44 146 177 / 70%);
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    width: 183px;
+    height: 200px;
+    margin: 10px;
+    .separator {
+        border-bottom: 1px solid white;
+        padding-top: 15px;
+        margin-bottom: 5px;
+    }
+    .short_name {
+        margin-top: 5px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .long_name {
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .level {
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .short_name_mini {
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .publish {
+        border-radius: 100%;
+        width: 8px;
+        height: 8px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+        &.active {
+            background-color: green;
+        }
+    }
+}

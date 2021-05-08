@@ -1,0 +1,18 @@
+.container {
+  background-color: rgb(56, 56, 56);
+  height: 100%;
+  .search {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    button {
+      height: 28px;
+      margin-top: 13px;
+      background-color: rgb(44 146 177 / 70%);
+      color: white;
+      border: unset;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+  }
+}
